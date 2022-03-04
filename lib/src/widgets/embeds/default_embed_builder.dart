@@ -121,11 +121,7 @@ Widget defaultEmbedBuilder(BuildContext context, QuillController controller,
                           shape: const RoundedRectangleBorder(
                               borderRadius:
                                   BorderRadius.all(Radius.circular(10))),
-                          children: [
-                            // resizeOption,
-                            copyOption,
-                            removeOption,
-                          ]),
+                          children: [resizeOption, copyOption, removeOption]),
                     );
                   });
             },
